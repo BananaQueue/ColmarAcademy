@@ -1,8 +1,7 @@
 body{
-    background-color: blanchedalmond;
+    
 }
-nav{
+nav div{
     display: inline-block;
-    color: aqua;
-    background-color: aquamarine;
+
 }
