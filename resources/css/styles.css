@@ -1,3 +1,8 @@
-div{
+body{
+    background-color: blanchedalmond;
+}
+nav{
     display: inline-block;
+    color: aqua;
+    background-color: aquamarine;
 }
