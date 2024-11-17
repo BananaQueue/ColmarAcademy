@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Roboto flex', sans-serif;
-    
+    color: #5f5f5f;
 }
 nav{
     width: 100%;
@@ -50,8 +50,7 @@ nav a{
 }
 .grey-sec{
     width: 100%;
-    background-color: lightgrey;
-    color: #474747;
+    background-color: rgb(237, 237, 237);
     padding: 32px 0 32px 24px;
     display: flex;
     margin: 0px;
@@ -93,7 +92,6 @@ nav a{
 .white-sec{
     width: 100%;
     background-color: white;
-    color: #474747;
     padding: 32px 0 32px 24px;
     display: flex;
     margin: 0;
@@ -104,10 +102,10 @@ nav a{
 #bBoard-info{
     width: 60%;
     border: 1px solid blue;
-    
+
 }
 
-#bBoard-img{
+#bBoard-img,  #bBoard-info video{
     width: 100%;
     border: 1px solid brown;
     
@@ -158,6 +156,7 @@ nav a{
     text-align: center;
     padding: 0 0 32px 0;
     margin: 0;
+    
 }
 #course-banner h1{
     margin: 0;
@@ -185,18 +184,34 @@ nav a{
     border: 1px solid red;
     background-color: white;
     align-items: left;
+    
 }
 
 .course-info-cards h2{
     margin: 0;
+    font-size: 32px;
     padding: 32px 0 8px 16px;
 }
 
 .course-info-cards p{
-    padding: 16px;
+    padding: 16px 16px 4px 16px;
     margin: 0;
+    color: #8c8c8c;
+}
+.course-info-cards p:nth-of-type(2){
+    padding: 4px 16px 24px 16px;
+    margin: 0;
+
 }
 
 #course-cards img{
     width: 100%;
+}
+
+#thesis{
+    flex-direction: column;
+}
+#thesis-cont{
+    display: flex;
+    flex-direction: row;
 }
